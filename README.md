@@ -1,7 +1,9 @@
-# TourismBI - туристическа платформа
+# TourismBI - Tourism Platform
 
 ![status](https://img.shields.io/badge/status-prototype-orange)
 ![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)
+
+Български | [English](README.en.md)
 
 `TourismBI` е първоначалният прототип на туристическа платформа, която впоследствие трябва да  обединява туристически обекти, потребители, ревюта, любими места и данни за последващ BI анализ.
 
