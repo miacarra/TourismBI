@@ -3,8 +3,7 @@
 ![status](https://img.shields.io/badge/status-prototype-orange)
 ![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)
 
-
-[Ð‘ÑŠÐ»Ð³Ð°Ñ€ÑÐºÐ¸](README.md) | English
+[Bulgarian](README.md) | English
 
 `TourismBI` is the initial prototype of a tourism platform intended to bring together tourist attractions, users, reviews, favorite places, and data for future BI analysis.
 
@@ -21,7 +20,7 @@ The project has a `prototype` status. This version is intended for learning and 
 - Visual Studio
 - BCrypt.Net-Next
 - Git
-- SQL Server â€” used to create a local database that is not included in this repository
+- SQL Server - used to create a local database that is not included in this repository
 
 ## Structure
 
@@ -82,7 +81,7 @@ The initial model uses inheritance to represent user roles:
 
 ```text
 User
-â””â”€â”€ Tourist
++-- Tourist
 ```
 
 Future versions will transition to ASP.NET Core Identity.
@@ -90,10 +89,11 @@ Future versions will transition to ASP.NET Core Identity.
 The Identity account will be separated from the domain profile, while assigned roles will be managed through a many-to-many relationship between users and roles.
 
 ```text
-ApplicationUser * â”€â”€â”€â”€â”€â”€â”€ * IdentityRole
-        â”‚
-        â””â”€â”€ UserProfile
+ApplicationUser * ------- * IdentityRole
+        |
+        +-- UserProfile
 ```
+
 
 ## Project Version
 
